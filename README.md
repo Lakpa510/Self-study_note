@@ -19,7 +19,7 @@ Overview
 
 
 Lab Topology
-
+'''
   [PC1]──Fa0/1──┐                    ┌──Fa0/1──[PC3]
   VLAN 2        │                    │          VLAN 2
                 |                    |
@@ -31,6 +31,7 @@ Lab Topology
   [PC2]──Fa0/2 ──┘                    └──Fa0/2──[PC4]
                                                  VLAN 5
                                                  2.11 /::3
+  '''
 
 Device       Interface     VLAN        IPv4              IPv6 
 PC1---Sw1     Fa0/1        VLAN 2  192.168.1.10/24  2006:A:AAA:1::2/64
