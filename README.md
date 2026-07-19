@@ -3,9 +3,9 @@ Layer 2 VLAN Switching Lab
 Configuration, Security Hardening & Troubleshooting (Dual-Stack IPv4/IPv6)
 ```
 ```
-Author: **Lakpa Sherpa**
-Platform: **Cisco Packet Tracer + PnetLab + Wireshark**
-Level: **CCNA / Associate-level Network Engineering**
+Author: Lakpa Sherpa
+Platform: Cisco Packet Tracer + PnetLab + Wireshark
+Level: CCNA / Associate-level Network Engineering
 ```
 
 
@@ -148,7 +148,7 @@ show cdp neighbors detail
 show lldp neighbors detail
 ```
 
-** Security**
+**Security**
 ```
 show port-security interface f0/1
 show port-security address
