@@ -171,7 +171,7 @@ Repository Structure
 L2-VLAN-Switching-Lab/
 ├── README.md
 ├── topology/
-│   └── lab.pkt                         # Packet Tracer file
+│   └── lab.pkt      # Packet Tracer file
 ├── configs/
 │   ├── sw1-final-config.txt
 │   └── sw2-final-config.txt
@@ -202,10 +202,7 @@ Tools Used
 
 ToolPurposeCisco Packet TracerInitial lab build & configPnetLabReal packet capture environmentWiresharkFrame-level analysis (ARP, NDP, 802.1Q, STP BPDU)
 
-
 Future Labs (Planned)
-
-
 Layer 3 inter-VLAN routing (Router-on-a-stick / SVI)
 DTP deep-dive lab
 DHCP Snooping + Dynamic ARP Inspection (DAI)
