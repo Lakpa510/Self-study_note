@@ -38,7 +38,8 @@ PC1---Sw1     Fa0/1        VLAN 2  192.168.1.10/24  2006:A:AAA:1::2/64
 PC2---Sw1     Fa0/2        VLAN 5  192.168.2.10/24  2006:A:AAA:2::2/64
 PC3---Sw2     Fa0/1        VLAN 2  192.168.1.11/24  2006:A:AAA:1::3/64
 PC4---Sw2     Fa0/2        VLAN 5  192.168.2.11/24  2006:A:AAA:2::3/64
-
+```
+```
 VLAN      Network                IPv6 Prefix 
 VLAN 2    192.168.1.0/24        2006:A:AAA:1::/64
 VLAN 5    192.168.2.0/24        2006:A:AAA:2::/64
@@ -74,13 +75,14 @@ Lab Objectives
 ```
 
 Key Findings & Highlights
-
+```
 1. Pre-trunk ping failure
 VLAN create गरेपछि स्विचले छुट्टै broadcast domain बनाउँछ। Trunk port नभएसम्म VLAN ID tag गरेर पठाउन सकिँदैन — frame drop हुन्छ।
-
+```
+```
 2. Mismatched Access Port — Silent Drop (Step 7)
 SW1 Gig0/1 = VLAN 2, SW2 Gig0/1 = VLAN 5 राख्दा:
-
+```
 
 VLAN 2 traffic → SW2 मा VLAN 5 मा misdeliver हुन्छ
 VLAN 5 traffic → SW1 भित्रै drop हुन्छ (SW2 सम्म पुग्दैन)
