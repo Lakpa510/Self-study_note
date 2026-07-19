@@ -19,7 +19,7 @@ Overview
 
 
 Lab Topology
-'''
+```
   [PC1]──Fa0/1──┐                    ┌──Fa0/1──[PC3]
   VLAN 2        │                    │          VLAN 2
                 |                    |
@@ -31,8 +31,8 @@ Lab Topology
   [PC2]──Fa0/2 ──┘                    └──Fa0/2──[PC4]
                                                  VLAN 5
                                                  2.11 /::3
-  '''
-
+ ```
+```
 Device       Interface     VLAN        IPv4              IPv6 
 PC1---Sw1     Fa0/1        VLAN 2  192.168.1.10/24  2006:A:AAA:1::2/64
 PC2---Sw1     Fa0/2        VLAN 5  192.168.2.10/24  2006:A:AAA:2::2/64
@@ -44,10 +44,10 @@ VLAN 2    192.168.1.0/24        2006:A:AAA:1::/64
 VLAN 5    192.168.2.0/24        2006:A:AAA:2::/64
 VLAN 7    Voice VLAN            —
 VLAN 10   Native + Parking Lot  —
-
+```
 
 Lab Objectives
-
+```
 #  TopicKey                           Concept
 1  Hostname config                    Basic switch setup
 2  VLAN 2–10 creation                 VLAN database
@@ -71,7 +71,7 @@ Lab Objectives
 20 Native VLAN mismatch               STP PVID error + MAC table analysis
 21 Port security                      MAC-based access control
 22 Troubleshooting                    show commands + Wireshark
-
+```
 
 Key Findings & Highlights
 
