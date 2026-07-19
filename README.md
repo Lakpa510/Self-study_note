@@ -12,8 +12,9 @@ Level: **CCNA / Associate-level Network Engineering**
 
 Overview
 ```
-यो lab मैले Layer 2 VLAN switching को concept हात्तेकाम (hands-on) मार्फत सिक्नको लागि बनाएको हो। VLAN creation देखि trunk configuration,
-security hardening, र real-packet Wireshark analysis सम्मको पूरै journey यहाँ documentation गरिएको छ।
+यो lab मैले Layer 2 VLAN switching को concept हात्तेकाम (hands-on) मार्फत सिक्नको लागि बनाएको हो। VLAN creation
+देखि trunk configuration, security hardening, र real-packet Wireshark analysis सम्मको पूरै journey यहाँ
+documentation गरिएको छ।
 
 यो lab ले केवल "command run गर्ने" भन्दा बढी — किन हुन्छ, के हुन्छ, र गल्ती भएमा के देखिन्छ — भन्ने कुरामा ध्यान दिएको छ।
 ```
